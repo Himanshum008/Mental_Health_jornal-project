@@ -154,3 +154,6 @@ def get_active_pipeline_and_metadata():
     _ACTIVE_MODEL_CACHE["metadata"] = metadata
 
     return pipeline, metadata
+
+# Convenient alias for loading active model pipeline and metadata
+load_active_model = get_active_pipeline_and_metadata

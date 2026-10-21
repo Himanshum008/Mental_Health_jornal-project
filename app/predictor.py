@@ -126,8 +126,10 @@ def predict_mood(text: str) -> Dict[str, Any]:
             "sentiment": "NEUTRAL",
             "confidence": 0.5,
             "emotion_scores": {"Neutral": 1.0},
+            "emotion_probabilities": {"Neutral": 1.0},
             "model_version": "default_rule",
             "reflection_insight": REFLECTION_PROMPTS['neutral'][0],
+            "reflection_prompt": REFLECTION_PROMPTS['neutral'][0],
             "message": "Input text was empty or too short."
         }
 
@@ -232,7 +234,9 @@ def predict_mood(text: str) -> Dict[str, Any]:
         "sentiment": sentiment,
         "confidence": confidence,
         "emotion_scores": emotion_scores,
+        "emotion_probabilities": emotion_scores,
         "model_version": metadata.get("version", "v1.0"),
         "model_name": metadata.get("name", "Active Model"),
-        "reflection_insight": reflection
+        "reflection_insight": reflection,
+        "reflection_prompt": reflection
     }
