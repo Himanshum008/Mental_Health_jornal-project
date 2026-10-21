@@ -1,0 +1,223 @@
+{
+  "id": "model_20261008_214233_v16.0",
+  "name": "Multinomial Naive Bayes (v16.0)",
+  "version": "v16.0",
+  "algorithm": "Multinomial Naive Bayes",
+  "algorithm_key": "NAIVE_BAYES",
+  "dataset_name": "serene_mind_master_emotions.csv",
+  "text_column": "journal_text",
+  "label_column": "mood",
+  "classes": [
+    "Anger",
+    "Anxiety",
+    "Calm",
+    "Fear",
+    "Joy",
+    "Love",
+    "Neutral",
+    "Sadness",
+    "Surprise"
+  ],
+  "accuracy": 0.9791,
+  "precision": 0.9793,
+  "recall": 0.9791,
+  "f1_score": 0.979,
+  "train_samples": 3052,
+  "test_samples": 764,
+  "confusion_matrix": {
+    "labels": [
+      "Anger",
+      "Anxiety",
+      "Calm",
+      "Fear",
+      "Joy",
+      "Love",
+      "Neutral",
+      "Sadness",
+      "Surprise"
+    ],
+    "matrix": [
+      [
+        87,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        89,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        91,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        85,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        1,
+        85,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        79,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        43,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        127,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        62
+      ]
+    ]
+  },
+  "class_distribution": {
+    "Sadness": 645,
+    "Calm": 462,
+    "Anxiety": 457,
+    "Joy": 453,
+    "Anger": 442,
+    "Fear": 429,
+    "Love": 395,
+    "Surprise": 311,
+    "Neutral": 222
+  },
+  "detailed_report": {
+    "Anger": {
+      "precision": 0.9775280898876404,
+      "recall": 0.9886363636363636,
+      "f1-score": 0.9830508474576272,
+      "support": 88.0
+    },
+    "Anxiety": {
+      "precision": 1.0,
+      "recall": 0.967391304347826,
+      "f1-score": 0.9834254143646409,
+      "support": 92.0
+    },
+    "Calm": {
+      "precision": 0.9578947368421052,
+      "recall": 0.978494623655914,
+      "f1-score": 0.9680851063829787,
+      "support": 93.0
+    },
+    "Fear": {
+      "precision": 0.9550561797752809,
+      "recall": 0.9883720930232558,
+      "f1-score": 0.9714285714285714,
+      "support": 86.0
+    },
+    "Joy": {
+      "precision": 0.9659090909090909,
+      "recall": 0.9340659340659341,
+      "f1-score": 0.9497206703910615,
+      "support": 91.0
+    },
+    "Love": {
+      "precision": 0.9875,
+      "recall": 1.0,
+      "f1-score": 0.9937106918238994,
+      "support": 79.0
+    },
+    "Neutral": {
+      "precision": 1.0,
+      "recall": 0.9772727272727273,
+      "f1-score": 0.9885057471264368,
+      "support": 44.0
+    },
+    "Sadness": {
+      "precision": 1.0,
+      "recall": 0.9844961240310077,
+      "f1-score": 0.9921875,
+      "support": 129.0
+    },
+    "Surprise": {
+      "precision": 0.96875,
+      "recall": 1.0,
+      "f1-score": 0.9841269841269841,
+      "support": 62.0
+    },
+    "accuracy": 0.9790575916230366,
+    "macro avg": {
+      "precision": 0.9791820108237909,
+      "recall": 0.9798587966703365,
+      "f1-score": 0.9793601703446888,
+      "support": 764.0
+    },
+    "weighted avg": {
+      "precision": 0.9793380120023948,
+      "recall": 0.9790575916230366,
+      "f1-score": 0.9790424395070721,
+      "support": 764.0
+    }
+  },
+  "created_at": "2026-10-08T21:42:34.139868",
+  "is_active": false
+}

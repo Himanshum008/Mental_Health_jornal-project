@@ -1,0 +1,195 @@
+{
+  "id": "model_20260929_213300_v9.0",
+  "name": "Logistic Regression (v9.0)",
+  "version": "v9.0",
+  "algorithm": "Logistic Regression",
+  "algorithm_key": "LOGISTIC_REGRESSION",
+  "dataset_name": "emotion_dataset.csv",
+  "text_column": "journal_text",
+  "label_column": "mood",
+  "classes": [
+    "Anger",
+    "Anxiety",
+    "Calm",
+    "Fear",
+    "Joy",
+    "Neutral",
+    "Sadness",
+    "Surprise"
+  ],
+  "accuracy": 0.7473,
+  "precision": 0.7599,
+  "recall": 0.7473,
+  "f1_score": 0.7351,
+  "train_samples": 210,
+  "test_samples": 91,
+  "confusion_matrix": {
+    "labels": [
+      "Anger",
+      "Anxiety",
+      "Calm",
+      "Fear",
+      "Joy",
+      "Neutral",
+      "Sadness",
+      "Surprise"
+    ],
+    "matrix": [
+      [
+        8,
+        0,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        4,
+        2,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        8,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        10,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        12
+      ]
+    ]
+  },
+  "class_distribution": {
+    "Joy": 44,
+    "Sadness": 43,
+    "Calm": 43,
+    "Anger": 43,
+    "Neutral": 42,
+    "Surprise": 41,
+    "Fear": 31,
+    "Anxiety": 14
+  },
+  "detailed_report": {
+    "Anger": {
+      "precision": 0.8,
+      "recall": 0.6153846153846154,
+      "f1-score": 0.6956521739130435,
+      "support": 13.0
+    },
+    "Anxiety": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1-score": 0.4,
+      "support": 4.0
+    },
+    "Calm": {
+      "precision": 0.8571428571428571,
+      "recall": 0.9230769230769231,
+      "f1-score": 0.8888888888888888,
+      "support": 13.0
+    },
+    "Fear": {
+      "precision": 0.6666666666666666,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.5333333333333333,
+      "support": 9.0
+    },
+    "Joy": {
+      "precision": 0.5714285714285714,
+      "recall": 0.6153846153846154,
+      "f1-score": 0.5925925925925926,
+      "support": 13.0
+    },
+    "Neutral": {
+      "precision": 0.7142857142857143,
+      "recall": 0.7692307692307693,
+      "f1-score": 0.7407407407407407,
+      "support": 13.0
+    },
+    "Sadness": {
+      "precision": 0.6842105263157895,
+      "recall": 1.0,
+      "f1-score": 0.8125,
+      "support": 13.0
+    },
+    "Surprise": {
+      "precision": 0.9230769230769231,
+      "recall": 0.9230769230769231,
+      "f1-score": 0.9230769230769231,
+      "support": 13.0
+    },
+    "accuracy": 0.7472527472527473,
+    "macro avg": {
+      "precision": 0.7771014073645652,
+      "recall": 0.6925747863247863,
+      "f1-score": 0.6983480815681902,
+      "support": 91.0
+    },
+    "weighted avg": {
+      "precision": 0.7599107659258036,
+      "recall": 0.7472527472527473,
+      "f1-score": 0.7351084302171259,
+      "support": 91.0
+    }
+  },
+  "created_at": "2026-09-29T21:33:00.335434",
+  "is_active": false
+}

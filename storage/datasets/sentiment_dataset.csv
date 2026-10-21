@@ -1,0 +1,16 @@
+entry_id,text_content,category,polarity
+1,"Today was an amazing day! I conquered my fears and achieved everything I planned.",Joy,Positive
+2,"I am having panic attacks and my chest feels tight with worry.",Fear,Negative
+3,"I hate how people disrespect each other. It makes me so mad.",Anger,Negative
+4,"I feel lonely and crying in my room. Everything feels bleak.",Sadness,Negative
+5,"Sitting by the lake reading a book, feeling very calm and relaxed.",Peaceful,Positive
+6,"Normal routine workday, nothing special happened.",Neutral,Neutral
+7,"What a pleasant surprise to receive flowers from an old friend today!",Surprise,Positive
+8,"I am proud of how far I have come on this mental wellness journey.",Joy,Positive
+9,"Frustrated by continuous delays and broken promises.",Anger,Negative
+10,"Woke up anxious about tomorrow's presentation and cannot eat.",Anxiety,Negative
+11,"Just watched a movie and had dinner. Normal evening.",Neutral,Neutral
+12,"Deeply saddened by the news from my hometown.",Sadness,Negative
+13,"Meditating under the morning sun brought me immense stillness.",Peaceful,Positive
+14,"Got an unexpected promotion at work! Feeling on top of the world.",Joy,Positive
+15,"Terrified of the thunderstorm rattling the roof tiles.",Fear,Negative

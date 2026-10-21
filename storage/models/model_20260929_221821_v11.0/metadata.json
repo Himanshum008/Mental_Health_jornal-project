@@ -1,0 +1,145 @@
+{
+  "id": "model_20260929_221821_v11.0",
+  "name": "Logistic Regression (v11.0)",
+  "version": "v11.0",
+  "algorithm": "Logistic Regression",
+  "algorithm_key": "LOGISTIC_REGRESSION",
+  "dataset_name": "kaggle_real_emotions_dataset.csv",
+  "text_column": "text",
+  "label_column": "emotion",
+  "classes": [
+    "anger",
+    "fear",
+    "joy",
+    "love",
+    "sadness",
+    "surprise"
+  ],
+  "accuracy": 0.495,
+  "precision": 0.5284,
+  "recall": 0.495,
+  "f1_score": 0.4141,
+  "train_samples": 800,
+  "test_samples": 200,
+  "confusion_matrix": {
+    "labels": [
+      "anger",
+      "fear",
+      "joy",
+      "love",
+      "sadness",
+      "surprise"
+    ],
+    "matrix": [
+      [
+        7,
+        1,
+        14,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        18,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        65,
+        0,
+        5,
+        0
+      ],
+      [
+        1,
+        0,
+        16,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        25,
+        0,
+        26,
+        0
+      ],
+      [
+        0,
+        0,
+        6,
+        0,
+        2,
+        0
+      ]
+    ]
+  },
+  "class_distribution": {
+    "joy": 348,
+    "sadness": 254,
+    "anger": 150,
+    "fear": 110,
+    "love": 95,
+    "surprise": 43
+  },
+  "detailed_report": {
+    "anger": {
+      "precision": 0.875,
+      "recall": 0.23333333333333334,
+      "f1-score": 0.3684210526315789,
+      "support": 30.0
+    },
+    "fear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 22.0
+    },
+    "joy": {
+      "precision": 0.4513888888888889,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.6074766355140186,
+      "support": 70.0
+    },
+    "love": {
+      "precision": 1.0,
+      "recall": 0.05263157894736842,
+      "f1-score": 0.1,
+      "support": 19.0
+    },
+    "sadness": {
+      "precision": 0.5652173913043478,
+      "recall": 0.5098039215686274,
+      "f1-score": 0.5360824742268041,
+      "support": 51.0
+    },
+    "surprise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 8.0
+    },
+    "accuracy": 0.495,
+    "macro avg": {
+      "precision": 0.48193438003220607,
+      "recall": 0.28739004373679294,
+      "f1-score": 0.2686633603954003,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.5283665458937198,
+      "recall": 0.495,
+      "f1-score": 0.41408101125247837,
+      "support": 200.0
+    }
+  },
+  "created_at": "2026-09-29T22:18:21.973681",
+  "is_active": false
+}

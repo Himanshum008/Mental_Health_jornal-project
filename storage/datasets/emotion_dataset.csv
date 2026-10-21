@@ -1,0 +1,302 @@
+journal_text,mood,sentiment
+"I had such a wonderful day today walking in the park and spending time with my family. Everything felt peaceful and bright.",Joy,Positive
+"I feel completely overwhelmed and exhausted with my exams and assignments. It feels like too much pressure.",Anxiety,Negative
+"Today was just an average ordinary day, nothing special happened. Went to work and came back home.",Neutral,Neutral
+"I am so heartbroken and down today. I miss my best friend and feel so isolated and lonely.",Sadness,Negative
+"I am so furious at how unfairly I was treated at work today. My blood is boiling.",Anger,Negative
+"Woke up feeling refreshed, motivated, and excited to tackle my goals. Life is good!",Joy,Positive
+"I don't know why, but I have this persistent dread in my chest. What if something goes wrong?",Fear,Negative
+"Had a calm cup of chamomile tea, read my favorite novel, and felt deeply at peace.",Calm,Positive
+"I feel like I am letting everyone down. No matter what I do, it never seems to be enough.",Sadness,Negative
+"Received surprising promotion news today! I can hardly believe it, I'm thrilled!",Surprise,Positive
+"Just finished my evening chores, watched some television, feeling neutral and ready for bed.",Neutral,Neutral
+"The constant deadlines are making me panic. I can't catch my breath or focus.",Anxiety,Negative
+"Felt deeply appreciated when my team praised my contribution to the project.",Joy,Positive
+"Feeling betrayed and angry. Someone broke my trust and I don't know how to forgive them.",Anger,Negative
+"I feel so empty inside today, staring at the ceiling with zero motivation to get out of bed.",Sadness,Negative
+"Went for a sunset run by the lake and felt a profound sense of gratitude and tranquility.",Calm,Positive
+"Got an unexpected visit from my childhood friend! Such a delightful surprise.",Surprise,Positive
+"Stuck in traffic for two hours, felt annoyed and frustrated all morning.",Anger,Negative
+"Worried sick about my upcoming health checkup results. The uncertainty is terrifying.",Fear,Negative
+"Cooked a delicious healthy meal and listened to good music. Very proud and happy.",Joy,Positive
+"Sitting in a quiet room listening to the rain fall against the window pane. Totally relaxed.",Calm,Positive
+"Just going through the motions today, nothing particularly good or bad happened.",Neutral,Neutral
+"I can't stop crying today, the grief comes in waves and it hurts so much.",Sadness,Negative
+"Someone cut me off recklessly on the highway and yelled at me. I was shaking with rage.",Anger,Negative
+"Starting a new job tomorrow and my stomach is doing flips. What if I fail?",Anxiety,Negative
+"Spent quality time journaling and doing deep breathing exercises. Mind is clear.",Calm,Positive
+"Celebrated my birthday with close friends and felt genuinely loved and cherished.",Joy,Positive
+"A sudden loud noise scared me half to death in the middle of the night.",Fear,Negative
+"Routine daily commute, replied to some routine emails, normal Tuesday.",Neutral,Neutral
+"Feel like nobody understands what I'm going through. I feel invisible.",Sadness,Negative
+"I worked so hard on this presentation only to have credit stolen. Infuriating!",Anger,Negative
+"A sudden plot twist in the movie totally caught me off guard! Wow!",Surprise,Positive
+"Enjoyed a slow morning with coffee and sunshine on the balcony. Very grateful.",Calm,Positive
+"Panicking about my finances. Bills are piling up and anxiety is skyrocketing.",Anxiety,Negative
+"Laughed so hard with my siblings that tears came out. Pure unadulterated happiness.",Joy,Positive
+"Just a standard work day. Completed tasks from 9 to 5.",Neutral,Neutral
+"Heavy sadness weighing on my chest. It's hard to put on a brave face.",Sadness,Negative
+"Terrified of presenting in front of 200 people tomorrow. Shaking just thinking about it.",Fear,Negative
+"I am so irritated with continuous interruptions while trying to concentrate.",Anger,Negative
+"Had a peaceful meditation session this morning. Grounded and centered.",Calm,Positive
+"Found an old photo album and was shocked by how different everything looked back then.",Surprise,Positive
+"Achieved a personal fitness milestone today, hit a new personal best!",Joy,Positive
+"Another mundane day of errands, grocery shopping, and laundry.",Neutral,Neutral
+"I feel tired of trying and constantly failing. The sadness is overwhelming.",Sadness,Negative
+"I am so mad at myself for making such a stupid preventable mistake.",Anger,Negative
+"Woke up in cold sweats from a terrifying nightmare. Trembling with fear.",Fear,Negative
+"Spent an hour lying on the grass watching clouds drift by. Absolute serenity.",Calm,Positive
+"Won a raffle prize I completely forgot I entered! What a pleasant surprise!",Surprise,Positive
+"Feeling energetic, confident, and optimistic about the upcoming month!",Joy,Positive
+"Cleaned the kitchen, organized my desk. Feeling neutral and balanced.",Neutral,Neutral
+"Deep melancholy today. Looking back at old memories and feeling down.",Sadness,Negative
+"The customer service was shockingly rude and dismissive. Left me fuming with rage.",Anger,Negative
+"Trembling with anxiety over whether my visa application will be approved.",Fear,Negative
+"Peaceful evening walk with my dog. Cool breeze and quiet streets.",Calm,Positive
+"Out of the blue, an old mentor reached out with an incredible opportunity!",Surprise,Positive
+"Smiled throughout the day, had wonderful lunch with colleagues.",Joy,Positive
+"Normal day at college, attended lectures, took notes, came home.",Neutral,Neutral
+"Loneliness is hitting hard tonight. Nights are always the hardest.",Sadness,Negative
+"Can't stand people who take advantage of kindness. Makes me so angry.",Anger,Negative
+"Fearful about what the future holds. Everything feels precarious and unstable.",Fear,Negative
+"Soft acoustic music playing, gentle candle flickering, feeling warm and relaxed.",Calm,Positive
+"Unexpectedly received a package from my parents with handwritten letters!",Surprise,Positive
+"Had a breakthrough with my personal project! Everything is clicking into place!",Joy,Positive
+"Average day, worked on my laptop, nothing noteworthy.",Neutral,Neutral
+"Hopelessness creeping in again. Struggling to find meaning today.",Sadness,Negative
+"Someone damaged my parked car and didn't leave a note. Disgusted and furious.",Anger,Negative
+"Heart pounding fast, palms sweating, anxiety attack starting out of nowhere.",Anxiety,Negative
+"Practiced mindfulness by the garden flowers. Smelled the rain on the soil. So peaceful.",Calm,Positive
+"Shocked to discover that my painting won first place in the local contest!",Surprise,Positive
+"So proud of my sibling graduating with honors today. My heart is bursting with joy!",Joy,Positive
+"Just reading news articles, normal quiet afternoon.",Neutral,Neutral
+"Tears falling while listening to sad music. Feeling bruised emotionally.",Sadness,Negative
+"Heated argument with my partner, felt misunderstood, angry, and resentful.",Anger,Negative
+"The dark alley was terrifying, thought someone was following me, ran all the way home.",Fear,Negative
+"Resting on a hammock under tall pine trees. Complete peace of mind.",Calm,Positive
+"I opened the door and all my friends jumped out shouting Happy Birthday! Completely shocked!",Surprise,Positive
+"Felt a surge of creative inspiration, painted all afternoon with pure delight.",Joy,Positive
+"Browsed through social media, read a few chapters, typical weekend day.",Neutral,Neutral
+"Deep sorrow about losing someone dear. The grief doesn't seem to lessen.",Sadness,Negative
+"Rage boiling inside after hearing unfair rumors spread about me.",Anger,Negative
+"Constant dread about climate change and the state of the world.",Anxiety,Negative
+"Gentle yoga stretch in the morning made my whole body feel light and serene.",Calm,Positive
+"An unexpected compliment from a stranger in the elevator made my whole week!",Surprise,Positive
+"Passed my driving test on the first try! Yelling with excitement!",Joy,Positive
+"Regular routine, woke up at 7, had toast, worked till evening.",Neutral,Neutral
+"Feeling devalued and forgotten. The blues have set in.",Sadness,Negative
+"I hate being lied to straight to my face. I am seething with anger.",Anger,Negative
+"Fear of failure is paralyzing me. I can't even start studying.",Fear,Negative
+"Sipping herbal tea wrapped in a warm blanket while reading. Total contentment.",Calm,Positive
+"Shocked by how quickly the years have flown by looking at high school photos.",Surprise,Positive
+"Had the best date tonight, laughter and meaningful connection throughout.",Joy,Positive
+"Usual Sunday afternoon, meal prepping for the week ahead.",Neutral,Neutral
+"Felt like curling up in a ball and shutting out the world. Deep sadness.",Sadness,Negative
+"Treated with blatant disrespect by my manager. I am trembling with indignation.",Anger,Negative
+"Woke up with heart palpitations thinking I overslept and missed my flight.",Fear,Negative
+"Sitting quietly on the beach watching the gentle ocean waves lap the shore.",Calm,Positive
+"Out of nowhere a deer crossed our path in the woods! What a magical surprise!",Surprise,Positive
+"Finally launched my portfolio website! Immensely proud and joyous!",Joy,Positive
+"Commuted on the train, listened to a podcast, typical quiet day.",Neutral,Neutral
+"Grieving a personal loss today. Cried while looking at the sunset.",Sadness,Negative
+"Extremely pissed off by poor organization and ruined plans.",Anger,Negative
+"Anxious thoughts spiraling about health and mortality.",Anxiety,Negative
+"Deep breathing beside a tranquil waterfall. Absolute mental quietude.",Calm,Positive
+"Stunned to find out that I won the scholarship grant!",Surprise,Positive
+"Reunited with my childhood dog, wagging tail and boundless affection.",Joy,Positive
+"Another standard Thursday, attended meetings, answered tickets.",Neutral,Neutral
+"Saddened by harsh words spoken in anger. My heart feels heavy.",Sadness,Negative
+"Felt deep resentment over being taken for granted.",Anger,Negative
+"Panic stricken when I temporarily lost my wallet with all my cards.",Fear,Negative
+"Gentle breeze flowing through open windows, drinking warm matcha tea.",Calm,Positive
+"Surprised to see snowfall in April! It transformed the whole street.",Surprise,Positive
+"Cracked jokes around the campfire until midnight. Blessed with good people.",Joy,Positive
+"Quiet evening, organized closet, feeling indifferent and steady.",Neutral,Neutral
+"Feeling down and inadequate compared to peers. Sadness lingering.",Sadness,Negative
+"Boiling with anger at systemic injustice and corruption.",Anger,Negative
+"Terrified of medical needles, could barely sit still during the blood draw.",Fear,Negative
+"Watching the moon rise over the calm silent lake. Peaceful and still.",Calm,Positive
+"My cousin flew across the country just to visit me without telling me!",Surprise,Positive
+"Felt on top of the world after a productive sprint and team celebration!",Joy,Positive
+"Routine morning jog, breakfast, routine chores.",Neutral,Neutral
+"Feeling like giving up. The darkness feels heavy today.",Sadness,Negative
+"Outraged by animal cruelty news. Makes my blood boil with anger.",Anger,Negative
+"Frightened by strange tapping sounds outside my window in the storm.",Fear,Negative
+"Floating effortlessly on my back in the warm pool. Pure physical tranquility.",Calm,Positive
+"Completely taken aback by how delicious this authentic street food was!",Surprise,Positive
+"My toddler said I love you clearly for the first time. Pure bliss and tears of joy!",Joy,Positive
+"Ordinary Monday, checked off items on my checklist.",Neutral,Neutral
+"Feeling unloved and misunderstood. Sulking in sadness.",Sadness,Negative
+"Frustrated by bureaucratic red tape wasting my entire day.",Anger,Negative
+"Scared about the upcoming job market and potential layoffs.",Fear,Negative
+"Sitting beside a warm fireplace with a warm blanket on a snowy evening.",Calm,Positive
+"Unbelievable surprise party planned by my family. Tears of joy and shock!",Surprise,Positive
+"Singing along to my favorite songs in the car with the windows rolled down.",Joy,Positive
+"Nothing much to report, ate dinner, reviewed notes.",Neutral,Neutral
+"Suffering from depressive thoughts, feeling detached from everything.",Sadness,Negative
+"Road rage incident witnessed today. People can be so aggressive and mad.",Anger,Negative
+"Trembling with nervousness before stepping onto the stage for speech.",Anxiety,Negative
+"Sipping iced green tea in a zen rock garden. Total stillness.",Calm,Positive
+"Found a fifty dollar bill tucked away in an old winter coat pocket!",Surprise,Positive
+"Everything went smoothly today, received great feedback on my work.",Joy,Positive
+"Just a neutral day, nothing exciting, nothing depressing.",Neutral,Neutral
+"Tears wouldn't stop flowing during the sad movie ending.",Sadness,Negative
+"Infuriated by stolen bike from right in front of the house.",Anger,Negative
+"Feeling anxious about meeting new people at the social gathering.",Fear,Negative
+"A tranquil afternoon reading poetry and listening to birds chirping.",Calm,Positive
+"Was shocked when the magician performed that impossible illusion right before my eyes!",Surprise,Positive
+"Celebrated 1 year of consistent healthy habits! Feeling proud and happy.",Joy,Positive
+"Walked around the block, casual routine day.",Neutral,Neutral
+"The feeling of rejection stung deeply today. Feeling sad and deflated.",Sadness,Negative
+"Exploded with anger when someone blamed me for their own mistake.",Anger,Negative
+"Scared of getting lost in a foreign subway system without phone battery.",Fear,Negative
+"Watching raindrops race down the window pane with gentle lo-fi music.",Calm,Positive
+"Shocked when I discovered that my favorite author released a surprise new book!",Surprise,Positive
+"Laughed until my ribs ached playing board games with family.",Joy,Positive
+"Average routine day, attended classes, did homework.",Neutral,Neutral
+"Dealing with grief and regret. Heavy emotional weight today.",Sadness,Negative
+"Furious at landlord for refusing to fix the heating in freezing cold.",Anger,Negative
+"Anxious thoughts keeping me awake at 3 AM. Brain refuses to rest.",Anxiety,Negative
+"Soothing bath with lavender essential oils. Stress completely melted away.",Calm,Positive
+"Amazed by the unexpected Northern Lights visible in our town tonight!",Surprise,Positive
+"Received my graduation diploma today! Ten years of hard work paid off!",Joy,Positive
+"Standard day at the office, handled support tickets, went home.",Neutral,Neutral
+"Feeling ignored by friends when I needed support. Deeply hurt and sad.",Sadness,Negative
+"Heated dispute with the cashier who refused to honor the advertised price.",Anger,Negative
+"Paralyzing fear of heights when stepping onto the glass bridge.",Fear,Negative
+"Meditating at sunrise on the hill top. Crisp cool air and inner peace.",Calm,Positive
+"Stumbled upon a hidden secret garden cafe in the middle of the city!",Surprise,Positive
+"My puppy learned his first trick and wagged his tail excitedly! Sheer delight!",Joy,Positive
+"Just regular grocery shopping and preparing meals for the week.",Neutral,Neutral
+"Overcome with sorrow over missed opportunities in life.",Sadness,Negative
+"Irritated and angry after being stood up for a planned dinner.",Anger,Negative
+"Worrying about my parent's health diagnosis. Deep anxiety.",Anxiety,Negative
+"Listening to acoustic guitar while watching the fireplace glow.",Calm,Positive
+"Found out my article was featured on the front page of the magazine!",Surprise,Positive
+"Crushed my personal fitness goals today and celebrated with a smoothie.",Joy,Positive
+"Quiet Saturday at home, washed dishes, rested.",Neutral,Neutral
+"Feeling invisible and unworthy of love. The darkness is palpable.",Sadness,Negative
+"Furious that someone scratched my phone screen intentionally.",Anger,Negative
+"Frightened by severe thunderstorm warnings and tornado sirens.",Fear,Negative
+"Deep breathing exercise after a long workday. Restored equilibrium.",Calm,Positive
+"Surprised by a bouquet of flowers sent to my doorstep anonymously!",Surprise,Positive
+"Sun was shining, breeze was warm, and I had nowhere I had to be. Joyful!",Joy,Positive
+"Routine Tuesday, no special events to note.",Neutral,Neutral
+"Felt a deep pang of sorrow looking at old text messages.",Sadness,Negative
+"Furious about discriminatory remarks made during the meeting.",Anger,Negative
+"Paralyzed with panic attack before the dental surgery.",Fear,Negative
+"Stretching in the morning sunlight, feeling aligned and tranquil.",Calm,Positive
+"Shocked to discover that my old school friend lives in the same apartment building!",Surprise,Positive
+"Cooked an elaborate dinner for loved ones and received endless compliments!",Joy,Positive
+"Quiet evening, scrolled online, fell asleep early.",Neutral,Neutral
+"Feeling like a disappointment to my family. Tears streamed down.",Sadness,Negative
+"Seething with anger after package was stolen from porch.",Anger,Negative
+"Claustrophobia triggered when the elevator got stuck between floors.",Fear,Negative
+"Sitting quietly in the library with a cup of warm tea.",Calm,Positive
+"Unbelievable! Received a full tuition waiver unexpectedly!",Surprise,Positive
+"Woke up happy, feeling energetic and full of creative spark!",Joy,Positive
+"Normal workday, wrote code, had lunch, reviewed PRs.",Neutral,Neutral
+"Feeling hopeless about romantic life. Deep sadness and loneliness.",Sadness,Negative
+"Raging after airline lost my luggage on an international flight.",Anger,Negative
+"Terror struck when the car skidded on black ice for a few seconds.",Fear,Negative
+"Watching cherry blossom petals fall gently in the springtime wind.",Calm,Positive
+"Completely surprised to find a rare vintage book in a thrift shop!",Surprise,Positive
+"Celebrated reaching 10,000 subscribers on my educational channel!",Joy,Positive
+"Typical everyday routine, nothing noteworthy.",Neutral,Neutral
+"Feeling like no one cares whether I am here or not. Heavy depression.",Sadness,Negative
+"Livid when mechanic overcharged triple the estimated price.",Anger,Negative
+"Scared of getting bad news from the doctor's phone call.",Fear,Negative
+"Listening to soft piano music while sipping hot chocolate.",Calm,Positive
+"Shocked when my dog brought me back my lost wedding ring from the garden!",Surprise,Positive
+"Embraced my parents after being apart for two whole years. Heartwarming joy!",Joy,Positive
+"Standard evening, swept the floor, watched a documentary.",Neutral,Neutral
+"Crying in the shower so nobody hears. Deep exhaustion and sadness.",Sadness,Negative
+"Boiling with anger after being disrespected by colleague in public.",Anger,Negative
+"Heart pounding with anxiety over impending university admissions.",Anxiety,Negative
+"Restful afternoon nap with gentle rain drumming on the roof.",Calm,Positive
+"Astonished by the surprise flash mob proposal in the square!",Surprise,Positive
+"Conquered my fear and rode the giant roller coaster! Adrenaline and pure joy!",Joy,Positive
+"Average routine day, walked the dog, ate dinner.",Neutral,Neutral
+"Grieving the loss of my childhood pet. Heart broken into pieces.",Sadness,Negative
+"Angered by the negligence that caused the water leakage.",Anger,Negative
+"Trembling with fear during the earthquake tremors.",Fear,Negative
+"Gentle meditation by the riverbank. Watching the crystal water flow.",Calm,Positive
+"Did not expect to run into my favorite musician at the local cafe!",Surprise,Positive
+"Finished writing my novel after three years of work! Euphoric joy!",Joy,Positive
+"Normal day, completed daily checklist, feeling fine.",Neutral,Neutral
+"Feeling emotionally detached and numb. Sadness everywhere.",Sadness,Negative
+"Enraged by the vandalism done to community park equipment.",Anger,Negative
+"Fearful of losing my home due to financial constraints.",Fear,Negative
+"Lying under the starlit sky away from city lights. Total serenity.",Calm,Positive
+"Shocked to receive an inheritance notification from a distant relative!",Surprise,Positive
+"Hosted a dinner party with hilarious stories and genuine warmth. So joyous!",Joy,Positive
+"Regular routine, reviewed tasks, slept well.",Neutral,Neutral
+"Crying myself to sleep again tonight. Heavy sadness.",Sadness,Negative
+"Fuming over rude comments on my social media post.",Anger,Negative
+"Panic about missing the last connecting train in the middle of nowhere.",Fear,Negative
+"Slow deep breaths in the sauna. Complete relaxation and renewal.",Calm,Positive
+"Amazed by the unexpected rainbow spanning across the mountain valley!",Surprise,Positive
+"Got the job offer I had dreamed of for the past five years! Ecstatic!",Joy,Positive
+"Another regular work day, checked off tasks.",Neutral,Neutral
+"Feeling so low and unappreciated. Melancholy today.",Sadness,Negative
+"Livid after being cheated by an online scammer.",Anger,Negative
+"Extreme nervousness and trembling before stage acting debut.",Anxiety,Negative
+"Watching morning mist rise over the tranquil valley.",Calm,Positive
+"Stunned by how realistic the AI generated art was!",Surprise,Positive
+"Had a delightful picnic in the botanical gardens with delicious food!",Joy,Positive
+"Ordinary Thursday, took notes in lecture, walked home.",Neutral,Neutral
+"Crying over lost friendships. The isolation is tough.",Sadness,Negative
+"Furious at the contractor who abandoned the unfinished bathroom.",Anger,Negative
+"Terrified by aggressive stray dogs barking at my bicycle.",Fear,Negative
+"Relaxing bath with Epsom salts and soft instrumental melodies.",Calm,Positive
+"Completely surprised to find a hidden room in the historical library!",Surprise,Positive
+"Achieved my savings target for the year! Feeling so proud and happy!",Joy,Positive
+"Neutral day, watched some videos, did laundry.",Neutral,Neutral
+"Feeling like a burden to the people around me. Profound sadness.",Sadness,Negative
+"Angry with myself for procrastinating on the most crucial deadline.",Anger,Negative
+"Panic attack triggered by overcrowded subway car.",Anxiety,Negative
+"Mindful tea ceremony in the afternoon. Calm, focused, and centered.",Calm,Positive
+"Surprised by an old teacher sending a heartfelt letter of encouragement!",Surprise,Positive
+"Surrounded by loving friends and delicious food. Pure bliss!",Joy,Positive
+"Regular day, commute, work, commute back.",Neutral,Neutral
+"Sitting in darkness feeling tears stream down my cheeks. Deep sadness.",Sadness,Negative
+"Outraged by animal abuse incident in the neighborhood.",Anger,Negative
+"Night terror woke me up screaming with fear and adrenaline.",Fear,Negative
+"Quietly reading a philosophy book while rain falls outside.",Calm,Positive
+"Astonished by the surprise gift box delivered by international courier!",Surprise,Positive
+"Sang at the top of my lungs during my favorite concert! Unforgettable joy!",Joy,Positive
+"Normal everyday tasks, cooked soup, cleaned dishes.",Neutral,Neutral
+"Hopelessness and depression making it hard to concentrate on anything.",Sadness,Negative
+"Blood boiling after being cut off in traffic by an aggressive driver.",Anger,Negative
+"Constant anxiety over whether my savings will survive medical emergency.",Fear,Negative
+"Gazing at the warm amber sunset over the quiet ocean horizon.",Calm,Positive
+"Shocked to discover that I passed the hardest engineering exam with top marks!",Surprise,Positive
+"Laughed so hard my stomach hurt while watching a comedy show!",Joy,Positive
+"Routine Saturday, organized desk and went to bed.",Neutral,Neutral
+"Heartache over breaking up with someone I deeply cared for.",Sadness,Negative
+"Furious at unfair grading on the term project.",Anger,Negative
+"Paralyzing fear before taking the oral defense exam.",Fear,Negative
+"Peaceful morning stroll through the dew covered forest.",Calm,Positive
+"Stunned by the unexpected solar eclipse turning midday into twilight!",Surprise,Positive
+"Adopted a rescue kitten today! My heart is overflowing with love and joy!",Joy,Positive
+"Standard day at work, meetings and coding.",Neutral,Neutral
+"Feeling completely abandoned by everyone I trusted.",Sadness,Negative
+"Seething with fury over broken promises and deceit.",Anger,Negative
+"Anxiety over future health outcomes keeping me restless all night.",Anxiety,Negative
+"Drinking herbal tea while listening to the wind rustling through pine needles.",Calm,Positive
+"Caught completely off guard by the unexpected proposal ring!",Surprise,Positive
+"Ran my first half-marathon and crossed the finish line with a huge smile!",Joy,Positive
+"Nothing special today, worked, read, slept.",Neutral,Neutral
+"Feeling utterly defeated and numb. Sadness taking over.",Sadness,Negative
+"Raging over the corrupt politician's speech.",Anger,Negative
+"Panic about getting lost in an unfamiliar city at night.",Fear,Negative
+"Lying peacefully on a blanket under an ancient oak tree.",Calm,Positive
+"Amazed by the unexpected meteorite flashing across the night sky!",Surprise,Positive
+"Got accepted into my dream university program! Jumping with joy!",Joy,Positive
+"Just an ordinary day, went through standard tasks.",Neutral,Neutral
+"Missing my deceased grandmother intensely today. Tears of grief.",Sadness,Negative
+"Furious that someone scratched my brand new motorcycle.",Anger,Negative
+"Paralyzed with fear during severe flight turbulence.",Fear,Negative
+"Listening to relaxing rain sounds while practicing breathing exercises.",Calm,Positive
+"Astonished when my lost cat walked back through the front door after 2 weeks!",Surprise,Positive
+"Had an inspiring conversation that sparked huge motivation and happiness!",Joy,Positive
