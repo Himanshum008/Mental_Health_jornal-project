@@ -1,0 +1,9 @@
+target/
+*.class
+*.jar
+*.war
+data/*.db
+data/*.trace.db
+.mvn/timing.properties
+.idea/
+*.iml

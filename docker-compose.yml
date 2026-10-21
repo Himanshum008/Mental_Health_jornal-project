@@ -1,0 +1,87 @@
+# =============================================================================
+# Docker Compose Orchestration — SereneMind Mental Health Journal Platform
+# =============================================================================
+version: '3.8'
+
+services:
+  # ---------------------------------------------------------------------------
+  # 1. Python ML Microservice (FastAPI + Scikit-Learn TF-IDF Emotion Classifier)
+  # ---------------------------------------------------------------------------
+  ml-service:
+    build:
+      context: .
+      dockerfile: app/Dockerfile
+    image: serenemind/ml-service:1.0.0
+    container_name: serenemind-ml
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Persist uploaded datasets and trained model artifacts to host
+      - ./storage:/app/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - serenemind-network
+
+  # ---------------------------------------------------------------------------
+  # 2. Java Spring Boot Backend (REST API, JWT Security, JPA)
+  # ---------------------------------------------------------------------------
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: serenemind/backend:1.0.0
+    container_name: serenemind-backend
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=h2
+      - ML_SERVICE_URL=http://ml-service:8000
+      - JWT_SECRET=${JWT_SECRET:-MentalHealthJournalSuperSecretKeyMustBeAtLeast256BitsLongForHMACSHA256AlgorithmSecurityCheck}
+      - SPRING_DATASOURCE_URL=jdbc:h2:file:/app/data/mentalhealth;DB_CLOSE_ON_EXIT=FALSE;AUTO_RECONNECT=TRUE
+    volumes:
+      # Persistent volume for H2 database file storage
+      - backend-data:/app/data
+    depends_on:
+      ml-service:
+        condition: service_healthy
+    networks:
+      - serenemind-network
+
+  # ---------------------------------------------------------------------------
+  # 3. React Frontend (Vite + Tailwind CSS served via Nginx Alpine)
+  # ---------------------------------------------------------------------------
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: serenemind/frontend:1.0.0
+    container_name: serenemind-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - serenemind-network
+
+# =============================================================================
+# Networks & Volumes
+# =============================================================================
+networks:
+  serenemind-network:
+    name: serenemind-network
+    driver: bridge
+
+volumes:
+  backend-data:
+    name: serenemind-backend-data
