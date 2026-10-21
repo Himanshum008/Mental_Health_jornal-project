@@ -195,4 +195,13 @@ public class MLClientService {
         res.setModelName("Fallback Heuristic Analyzer");
         return res;
     }
+
+    public boolean isServiceHealthy() {
+        try {
+            ResponseEntity<Map> res = restTemplate.getForEntity(mlServiceUrl + "/health", Map.class);
+            return res.getStatusCode().is2xxSuccessful();
+        } catch (Exception e) {
+            return false;
+        }
+    }
 }

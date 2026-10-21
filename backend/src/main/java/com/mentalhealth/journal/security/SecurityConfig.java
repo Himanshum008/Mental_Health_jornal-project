@@ -49,6 +49,7 @@ public class SecurityConfig {
             .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .headers(headers -> headers.frameOptions(frame -> frame.disable())) // allow H2 console
             .authorizeHttpRequests(auth -> auth
+                .requestMatchers("/api/health/**").permitAll()
                 .requestMatchers("/api/auth/**").permitAll()
                 .requestMatchers("/api/ml/predict").permitAll()
                 .requestMatchers("/api/ml/**").hasRole("ADMIN")
