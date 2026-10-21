@@ -8,7 +8,7 @@ from pydantic import BaseModel
 from app.config import DATASETS_DIR
 from app.dataset_processor import inspect_csv, validate_and_preprocess_dataset
 from app.model_trainer import train_and_evaluate_model
-from app.model_store import save_model, list_models, get_model, activate_model, get_active_model_id
+from app.model_store import save_model, list_models, get_model, activate_model, get_active_model_id, promote_model, rollback_model
 from app.predictor import predict_mood
 
 app = FastAPI(
@@ -184,6 +184,26 @@ def set_active_model(model_id: str):
         "message": f"Model '{model_id}' is now active for predictions!",
         "active_model_id": model_id
     }
+
+@app.post("/api/ml/models/{model_id}/promote")
+def promote_candidate_model(model_id: str):
+    try:
+        result = promote_model(model_id)
+        return result
+    except ValueError as ve:
+        raise HTTPException(status_code=422, detail=str(ve))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Promotion failed: {str(e)}")
+
+@app.post("/api/ml/models/rollback")
+def rollback_to_previous_model():
+    try:
+        result = rollback_model()
+        return result
+    except ValueError as ve:
+        raise HTTPException(status_code=400, detail=str(ve))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Rollback failed: {str(e)}")
 
 # ----------------- Real-Time Prediction API -----------------
 @app.post("/api/ml/predict")
