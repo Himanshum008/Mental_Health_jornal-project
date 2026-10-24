@@ -1,6 +1,6 @@
 const API_BASE = (typeof window !== 'undefined' && window.location.hostname === 'localhost') 
   ? 'http://localhost:8080/api' 
-  : `${import.meta.env.VITE_API_BASE_URL}/apiClient`;
+  : `${import.meta.env.VITE_API_BASE_URL}/api`;
 
 export const getAuthToken = () => localStorage.getItem('token');
 export const setAuthToken = (token) => localStorage.getItem('token');
